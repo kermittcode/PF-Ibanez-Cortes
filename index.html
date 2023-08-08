@@ -21,7 +21,7 @@
             />
         </div>
             <!-- Navbar main menu -->
-              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-8" data-bs-theme="dark">
+              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="./index.html">1337 Guitars</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +52,7 @@
 
     <main> 
         <!-- Carrusel de marcas -->
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="carouselExampleIndicators" class="carousel slide responsiveCarousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -80,10 +80,10 @@
           </div>
           <hr class="hr" />
           <!-- Guitarras mas vendidas -->
-          <h1 class="textoVarios">Most Sold</h1>
+          <h1 class="textoMostSold">Most Sold</h1>
           <hr class="hr" />
           <div class="contenedorGuitar">
-          <div class="card" style="width: 18rem;">
+          <div class="card margenGuitar" style="width: 18rem;">
             <img src="./assets/telecaster1111.png" class="card-img-top" alt="Fender Telecaster">
             <a href="./pages/fenderTelecaster.html"></a>
             <div class="card-body">
@@ -91,19 +91,19 @@
               <a href="./pages/fenderTelecaster.html" class="stretched-link"></a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card margenGuitar" style="width: 18rem;">
             <img src="./assets/lespaul.png" class="card-img-top" alt="Gibson Les Paul">
             <div class="card-body">
               <p class="card-text">Gibson Les Paul</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card margenGuitar" style="width: 18rem;">
             <img src="./assets/IBANEZ.png" class="card-img-top" alt="Ibanez RG350DXZ">
             <div class="card-body">
               <p class="card-text">Ibanez RG350DXZ</p>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card margenGuitar" style="width: 18rem;">
             <img src="./assets/PRS.png" class="card-img-top" alt="PRS SE Custom 24-08">
             <div class="card-body">
               <p class="card-text">PRS SE Custom 24-08</p>
@@ -113,10 +113,10 @@
     
         <hr class="hr" />
     <!-- Newsletter -->
-    <h2 class="textoNews">Subscribe to our Newsletter!</h2>
+    <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
     <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
     <div>
-    <label for="email" class="textoVarios">Enter your email</label>
+    <label for="email" class="textoVarios responsiveCarousel">Enter your email</label>
     <input type="email" id="email"/>
     <input type="submit" value="Subscribe"/>
     </div>

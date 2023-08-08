@@ -22,7 +22,7 @@
             />
         </div>
             <!-- Navbar main menu -->
-              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-8" data-bs-theme="dark">
+              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="../index.html">1337 Guitars</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
                       </li>
                       <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      </form>
+                  </form>
                     </ul>
                   </div>
                 </div>
@@ -52,32 +52,64 @@
     </header>
     <hr class="hr" />
     <main>
-        <h1 class="textoTelecaster">American Standard Telecaster®</h1>
-        <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <img class="fenderTelecaster" src="../assets/telecaster1111.png" alt="Guitarra Fender"
-        width="500"
-        height="500">
-              </div>
-              <div class="col">
-              </div>
-              <div class="col-6">
-                <p class="infoTelecaster">
-                    The American Standard Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.
-                    Our popular Deep "C” neck now sports smooth rolled fingerboard edges, a “Super-Natural” satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. 
-                    New V-Mod II Telecaster single-coil pickups are more articulate than ever while delivering the twang, snap and snarl that made the Tele famous. 
-                    The new top-load/string-through bridge with compensated “bullet” saddles is our most comfortable, flexible Tele bridge yet – retaining classic brass-saddle tone and providing excellent intonation and flexible setup options, allowing you to tailor the tension and tone of each string to your liking.
-              </div>
+
+    <!-- Imagen Telecaster + Texto -->
+
+        <div class="hideOnSmallScreen">
+            <h1 class="textoTelecaster">American Standard Telecaster®</h1>
+            <div class="container">
+                <div class="row">
+                <div class="col-2 col-sm-4">
+                    <img class="fenderTelecaster" src="../assets/telecaster1111.png" alt="Guitarra Fender"
+            width="500"
+            height="500">
+                </div>
+                <div class="col-2 col-sm-8">
+                    <div>
+                    <p class="infoTelecaster">
+                        The American Standard Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.
+                        Our popular Deep "C” neck now sports smooth rolled fingerboard edges, a “Super-Natural” satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. 
+                        New V-Mod II Telecaster single-coil pickups are more articulate than ever while delivering the twang, snap and snarl that made the Tele famous. 
+                        The new top-load/string-through bridge with compensated “bullet” saddles is our most comfortable, flexible Tele bridge yet – retaining classic brass-saddle tone and providing excellent intonation and flexible setup options, allowing you to tailor the tension and tone of each string to your liking.
+                    </p>
+                    </div>
+                    </div>
             </div>
-          </div>
+            </div>
     </div>
+
+    <!-- Version Pequena -->
+
+        <div class="hideOnBigScreen">
+            <h1 class="textoTelecaster">American Standard Telecaster®</h1>
+            <div class="container">
+                <div class="row">
+                <div class="col-2 col-sm-4">
+                    <img class="fenderTelecaster" src="../assets/telecaster1111.png" alt="Guitarra Fender"
+            width="500"
+            height="500">
+                </div>
+                <div class="col-2 col-sm-12">
+                    <div class="infoTelecaster">
+                        The American Standard Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.
+                        Our popular Deep "C” neck now sports smooth rolled fingerboard edges, a “Super-Natural” satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. 
+                        New V-Mod II Telecaster single-coil pickups are more articulate than ever while delivering the twang, snap and snarl that made the Tele famous. 
+                        The new top-load/string-through bridge with compensated “bullet” saddles is our most comfortable, flexible Tele bridge yet – retaining classic brass-saddle tone and providing excellent intonation and flexible setup options, allowing you to tailor the tension and tone of each string to your liking.
+                    </div>
+                    </div>
+            </div>
+            </div>
+    </div>
+    
     <hr class="hr" />
-    <h1 class="textoTelecaster"><button>Buy now!</button></h1>
-        <h1 class="textoTelecaster">$1699,99</h1> 
+
+    <!-- Compre Ahora -->
+    <h1 class="textoBuyNow responsiveCarousel"><button>Buy now!</button></h1>
+        <h1 class="textoBuyNow responsiveCarousel">$1699,99</h1> 
         <hr class="hr" />
+
     <!-- Newsletter -->
-    <h2 class="textoNews">Subscribe to our Newsletter!</h2>
+    <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
     <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
     <div>
     <label for="email" class="textoVarios">Enter your email</label>
@@ -106,7 +138,7 @@
         <img src="../assets/395125-328232108.png" alt="Logo YT"
         width="90px"    
         height="60px"
-        />
+    />
     </footer>
 
   

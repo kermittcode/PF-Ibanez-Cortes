@@ -17,6 +17,11 @@ body {
     color: white;
 }
 
+.textoMostSold {
+    padding-left: 5%;
+    color: white;
+}
+
 .textoNews {
     padding-left: 39%;
     color: white;
@@ -34,12 +39,18 @@ body {
 }
 
 .infoTelecaster{
-    padding-right: 20%;
+    padding-left: 30%;
     color:white;
     font-size: 1.2rem;
+    margin-top: 6%;
 }
 
 .textoTelecaster{
+    padding-left: 17.5%;
+    color:white;
+}
+
+.textoBuyNow{
     padding-left: 17.5%;
     color:white;
 }
@@ -48,7 +59,7 @@ body {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
-    background-color: #525252;
+    background-color: #2B3035;
   }
 
 .fotoLogo{
@@ -58,11 +69,87 @@ body {
 .fenderTelecaster{
     margin-left: 5%;
     border: solid black 5px;
-
+    position:static;
 }
 
 .img-container2 {
     float: left;
     margin-right: 10px;
     padding-left: 5%;
+}
+
+
+
+@media (max-width: 576px){
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 10%;
+        color: white;
+    }
+    .infoTelecaster{
+        padding-left: 0%;
+        margin-top: 5%;
+        color:white;
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .textoTelecaster{
+        padding-left: 12%;
+        color:white;
+    }
+    .fenderTelecaster{
+        margin-left: 0%;
+        border: solid black 5px;
+    
+    }
+    .textoVarios {
+        padding-left: 5%;
+        color: white;
+    }
+    .textoBuyNow{
+        padding-left: 0%;
+        color:white;
+    }
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+    .textoMostSold {
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .margenGuitar {
+        margin-bottom: 5%;
+    }
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .hideOnSmallScreen {
+        display: none;
+    }
+      
+}
+
+      @media (min-width: 577px) {
+    .hideOnBigScreen {
+    display: none;
+    }
 }
