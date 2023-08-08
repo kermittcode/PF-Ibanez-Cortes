@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1337Guitars - Music Fountain</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+       
+        <div class="contenedorHeader">
+            <div class="row">
+             <!-- Logo main menu -->
+        <div class="fotoLogo col-2">
+            <img src="./assets/icons/apple-touch-icon.png" alt="Logo 1337Guitars" class="fotoLogo"
+            width="100%" 
+            height="100%"
+            />
+        </div>
+            <!-- Navbar main menu -->
+              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-8" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">1337 Guitars</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./pages/categories.html">Categories</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/newArrivals.html">New Arrivals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/stores.html">Stores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/brands.html">Brands</a>
+                      </li>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      </form>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </header>
+
+    <main> 
+        <!-- Carrusel de marcas -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/fender.png" class="d-block w-100" alt="Fender slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/gibsonguitars.png" class="d-block w-100" alt="Gibson slide">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/prsguitars.png" class="d-block w-100" alt="PRS slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <hr class="hr" />
+          <!-- Guitarras mas vendidas -->
+          <h1 class="textoVarios">Most Sold</h1>
+          <hr class="hr" />
+          <div class="contenedorGuitar">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/telecaster1111.png" class="card-img-top" alt="Fender Telecaster">
+            <a href="./pages/fenderTelecaster.html"></a>
+            <div class="card-body">
+              <p class="card-text">American Standard Telecaster</p>
+              <a href="./pages/fenderTelecaster.html" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/lespaul.png" class="card-img-top" alt="Gibson Les Paul">
+            <div class="card-body">
+              <p class="card-text">Gibson Les Paul</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/IBANEZ.png" class="card-img-top" alt="Ibanez RG350DXZ">
+            <div class="card-body">
+              <p class="card-text">Ibanez RG350DXZ</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/PRS.png" class="card-img-top" alt="PRS SE Custom 24-08">
+            <div class="card-body">
+              <p class="card-text">PRS SE Custom 24-08</p>
+            </div>
+          </div>
+        </div>
+    
+        <hr class="hr" />
+    <!-- Newsletter -->
+    <h2 class="textoNews">Subscribe to our Newsletter!</h2>
+    <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
+    <div>
+    <label for="email" class="textoVarios">Enter your email</label>
+    <input type="email" id="email"/>
+    <input type="submit" value="Subscribe"/>
+    </div>
+    </form>
+    </main>
+
+    <hr class="hr" />
+
+    <!-- Footer -->
+    <footer class="footerBar">
+        <a href="http://www.instagram.com">
+        <img src="./assets/minimalist-instagram-icon-26-3372645709.jpg" alt="Logo IG"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.facebook.com">
+        <img src="./assets/face.jpg" alt="Logo FB"
+        width="90px"    
+        height="90px"
+        />
+    
+        <a href="http://www.youtube.com">
+        <img src="./assets/395125-328232108.png" alt="Logo YT"
+        width="90px"    
+        height="60px"
+        />
+    </footer>
+
+  
+  <!-- Script del bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

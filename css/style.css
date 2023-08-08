@@ -1,0 +1,68 @@
+body {
+    background-image: linear-gradient(#525252, #23536D);
+    margin: 0;
+  }
+
+.contenedorGuitar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+.textoVarios {
+    padding-left: 5%;
+    color: white;
+}
+
+.textoNews {
+    padding-left: 39%;
+    color: white;
+}
+
+.textoCorreo {
+    padding-left: 36%;
+    color: white;
+}
+
+.footerBar {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.infoTelecaster{
+    padding-right: 20%;
+    color:white;
+    font-size: 1.2rem;
+}
+
+.textoTelecaster{
+    padding-left: 17.5%;
+    color:white;
+}
+
+.contenedorHeader{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #525252;
+  }
+
+.fotoLogo{
+    border-radius: 50%;
+}
+
+.fenderTelecaster{
+    margin-left: 5%;
+    border: solid black 5px;
+
+}
+
+.img-container2 {
+    float: left;
+    margin-right: 10px;
+    padding-left: 5%;
+}
