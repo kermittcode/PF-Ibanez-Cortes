@@ -30,7 +30,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./pages/categories.html">Categories</a>
+                        <a class="nav-link" href="./pages/categories.html">Categories</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="./pages/newArrivals.html">New Arrivals</a>
@@ -41,9 +41,10 @@
                       <li class="nav-item">
                         <a class="nav-link" href="./pages/brands.html">Brands</a>
                       </li>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      </form>
+                      <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>                  
                     </ul>
                   </div>
                 </div>
@@ -80,39 +81,88 @@
           </div>
           <hr class="hr" />
           <!-- Guitarras mas vendidas -->
+
           <h1 class="textoMostSold">Most Sold</h1>
           <hr class="hr" />
-          <div class="contenedorGuitar">
-          <div class="card margenGuitar" style="width: 18rem;">
-            <img src="./assets/telecaster1111.png" class="card-img-top" alt="Fender Telecaster">
-            <a href="./pages/fenderTelecaster.html"></a>
+
+
+          <!-- <div class="row">
+          <ul class="contenedorGuitar">
+            <li class="card" class='margenGuitar col-2'>
+              <img src="./assets/telecaster1111.png" class="card-img-top" alt="Fender Telecaster">
+              <a href="./pages/fenderTelecaster.html"></a>
             <div class="card-body">
               <p class="card-text">American Standard Telecaster</p>
               <a href="./pages/fenderTelecaster.html" class="stretched-link"></a>
             </div>
-          </div>
-          <div class="card margenGuitar" style="width: 18rem;">
-            <img src="./assets/lespaul.png" class="card-img-top" alt="Gibson Les Paul">
-            <div class="card-body">
+          </li>
+          <li class="card" class='margenGuitar col-2'>
+              <img src="./assets/lespaul.png" class="card-img-top" alt="Gibson Les Paul">
+              <div class="card-body">
               <p class="card-text">Gibson Les Paul</p>
             </div>
-          </div>
-          <div class="card margenGuitar" style="width: 18rem;">
+          </li>
+          <li class="card" class='margenGuitar col-2'>
             <img src="./assets/IBANEZ.png" class="card-img-top" alt="Ibanez RG350DXZ">
             <div class="card-body">
               <p class="card-text">Ibanez RG350DXZ</p>
             </div>
-          </div>
-          <div class="card margenGuitar" style="width: 18rem;">
+          </li>
+          <li class="card" class='margenGuitar col-2'>
             <img src="./assets/PRS.png" class="card-img-top" alt="PRS SE Custom 24-08">
             <div class="card-body">
               <p class="card-text">PRS SE Custom 24-08</p>
             </div>
+          </li>
+        </ul>
+          </div> -->
+
+          <div class="row" class="contenedorGuitar">
+
+            <div class="col-3">
+              <div class="card">
+                <img src="./assets/telecaster1111.png" class="card-img-top" alt="Fender Telecaster">
+                  <div class="card-body">
+                      <h5 class="card-title">American Standard Telecaster</h5>
+                    <a href="./pages/fenderTelecaster.html" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-3">
+              <div class="card">
+              <img src="./assets/lespaul.png" class="card-img-top" alt="Gibson Les Paul">
+                <div class="card-body">
+                  <h5 class="card-title">Gibson Les Paul</h5>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            
+              <div class="col-3">
+              <div class="card">
+                <img src="./assets/IBANEZ.png" class="card-img-top" alt="Ibanez RG350DXZ">
+                <div class="card-body">
+                  <h5 class="card-title">Ibanez RG350DXZ</h5>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            
+              <div class="col-3">
+              <div class="card">
+                <img src="./assets/PRS.png" class="card-img-top" alt="PRS SE Custom 24-08">
+                <div class="card-body">
+                  <h5 class="card-title">PRS SE Custom 24-08</h5>
+                  <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+            
           </div>
-        </div>
     
-        <hr class="hr" />
     <!-- Newsletter -->
+    <div class="contenedorNewsletter">
     <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
     <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
     <div>
@@ -121,9 +171,9 @@
     <input type="submit" value="Subscribe"/>
     </div>
     </form>
+    </div>
     </main>
 
-    <hr class="hr" />
 
     <!-- Footer -->
     <footer class="footerBar">

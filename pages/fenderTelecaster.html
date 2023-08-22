@@ -22,33 +22,34 @@
             />
         </div>
             <!-- Navbar main menu -->
-              <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">1337 Guitars</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/categories.html">Categories</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/newArrivals.html">New Arrivals</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/stores.html">Stores</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/brands.html">Brands</a>
-                      </li>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  </form>
-                    </ul>
-                  </div>
+            <nav class="navbar bg-dark border-bottom border-body contenedorHeader navbar-expand-lg bg-body-tertiary col-10" data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">1337 Guitars</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../pages/categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/newArrivals.html">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/stores.html">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/brands.html">Brands</a>
+                    </li>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>                  
+                  </ul>
                 </div>
-              </nav>
+              </div>
+            </nav>
     </header>
     <hr class="hr" />
     <main>
@@ -56,17 +57,17 @@
     <!-- Imagen Telecaster + Texto -->
 
         <div class="hideOnSmallScreen">
-            <h1 class="textoTelecaster">American Standard Telecaster®</h1>
+            <h1 class="tituloGuitarra">American Standard Telecaster®</h1>
             <div class="container">
                 <div class="row">
                 <div class="col-2 col-sm-4">
-                    <img class="fenderTelecaster" src="../assets/telecaster1111.png" alt="Guitarra Fender"
+                    <img class="imgGuitarra" src="../assets/telecaster1111.png" alt="Guitarra Fender"
             width="500"
             height="500">
                 </div>
                 <div class="col-2 col-sm-8">
                     <div>
-                    <p class="infoTelecaster">
+                    <p class="infoGuitarra">
                         The American Standard Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.
                         Our popular Deep "C” neck now sports smooth rolled fingerboard edges, a “Super-Natural” satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. 
                         New V-Mod II Telecaster single-coil pickups are more articulate than ever while delivering the twang, snap and snarl that made the Tele famous. 
@@ -81,16 +82,16 @@
     <!-- Version Pequena -->
 
         <div class="hideOnBigScreen">
-            <h1 class="textoTelecaster">American Standard Telecaster®</h1>
+            <h1 class="tituloGuitarra">American Standard Telecaster®</h1>
             <div class="container">
                 <div class="row">
                 <div class="col-2 col-sm-4">
-                    <img class="fenderTelecaster" src="../assets/telecaster1111.png" alt="Guitarra Fender"
+                    <img class="imgGuitarra" src="../assets/telecaster1111.png" alt="Guitarra Fender"
             width="500"
             height="500">
                 </div>
                 <div class="col-2 col-sm-12">
-                    <div class="infoTelecaster">
+                    <div class="infoGuitarra">
                         The American Standard Telecaster® draws from more than seventy years of innovation, inspiration and evolution to meet the demands of today’s working player.
                         Our popular Deep "C” neck now sports smooth rolled fingerboard edges, a “Super-Natural” satin finish and a newly sculpted neck heel for a supremely comfortable feel and easy access to the upper register. 
                         New V-Mod II Telecaster single-coil pickups are more articulate than ever while delivering the twang, snap and snarl that made the Tele famous. 
@@ -104,22 +105,21 @@
     <hr class="hr" />
 
     <!-- Compre Ahora -->
-    <h1 class="textoBuyNow responsiveCarousel"><button>Buy now!</button></h1>
-        <h1 class="textoBuyNow responsiveCarousel">$1699,99</h1> 
-        <hr class="hr" />
+    <h2 class="textoBuyNow responsiveCarousel"><button>Buy now!</button></h2>
+        <h2 class="textoBuyNow responsiveCarousel">$1699,99</h2> 
 
     <!-- Newsletter -->
-    <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
-    <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
-    <div>
-    <label for="email" class="textoVarios">Enter your email</label>
-    <input type="email" id="email"/>
-    <input type="submit" value="Subscribe"/>
-    </div>
-    </form>
+    <div class="contenedorNewsletter">
+      <h2 class="textoNews responsiveCarousel">Subscribe to our Newsletter!</h2>
+      <form class="textoCorreo" action="correo.php" method="POST" enctype="text/plain">
+      <div>
+      <label for="email" class="textoVarios responsiveCarousel">Enter your email</label>
+      <input type="email" id="email"/>
+      <input type="submit" value="Subscribe"/>
+      </div>
+      </form>
+      </div>
     </main>
-
-    <hr class="hr" />
 
     <footer class="footerBar">
         <a href="http://www.instagram.com">
