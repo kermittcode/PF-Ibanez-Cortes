@@ -1,0 +1,92 @@
+ main {
+    background-color: $bg-color-main;
+
+    .textoMostSold {
+        text-align: center;
+        color: white;
+    }
+
+     .contenedorGuitar {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 5%;
+        text-align: center;
+        justify-content: center;
+    }
+
+     .card {
+         text-align: center;
+         height:70%;
+         width: 70%;
+     }
+
+     .card-title {
+         margin-top: 3%;
+     }
+
+     .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+    }
+
+    .textoNews {
+        padding-left: 39%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 39%;
+        color: white;
+    }
+
+ }
+    .footerBar {
+        background-color: black;
+        height: 100%;
+        width: 100%;
+     }
+
+@media (max-width: 576px){
+
+    .contenedorHeader{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #2B3035;
+    }
+
+    .responsiveCarousel{
+        text-align: center;
+        align-items: center;
+    }
+
+    .textoMostSold {
+        padding-left: 0%;
+        color: white;
+        text-align: center;
+    }
+
+    .contenedorGuitar{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoVarios {
+        padding-left: 5%;
+        color: white;
+    }
+
+    .textoNews {
+        padding-left: 0%;
+        color: white;
+    }
+    
+    .textoCorreo {
+        padding-left: 10%;
+        color: white;
+    }
+}
