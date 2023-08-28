@@ -1,29 +1,5 @@
- main {
-    background-color: $bg-color-main;
-
-    .textoMostSold {
-        text-align: center;
-        color: white;
-    }
-
-     .contenedorGuitar {
-        justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-        width: 400px;
-        height: 400px;
-    }
-
-     .card {
-         text-align: center;
-         height:100%;
-         margin:3%;
-         padding:3%;
-     }
-
-     .card-title {
-         margin-top: 3%;
-     }
+main {
+    background-image: url(.../assets/fondoAboutUs.webp);
 
      .contenedorNewsletter {
         background-color:$color-terciario;
@@ -45,31 +21,83 @@
 
  }
 
- /* CLASES DE PAGINAS DE GUITARRA */
-
-.tituloGuitarra{
-    padding-left: 17.5%;
-    margin-bottom: 1.4%;
-    color:white;
+.cardBrands {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.imgGuitarra{
+.rowBrands {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+}
+
+.tituloSuperiorBr {
+    color:white;
+    height: 22%;
+    text-align: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.textoBrands {
+    padding-bottom: 5%;
+    font-size: 1.8rem;
+    padding-top: 2%;
+}
+
+.textoBrandsDos {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    }
+
+.contenedorBrandsBlanco {
+    padding-top :5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
     margin-left: 5%;
-    border: solid black 5px;
-    position:static;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: .3rem !important;
 }
 
-.infoGuitarra{
-    padding-left: 30%;
+.contenedorBrandsAzul {
+    padding-top :3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #016A92;
+    border-radius: .3rem !important;
     color:white;
-    font-size: 1.2rem;
-    margin-top: 6%;
 }
 
-.textoBuyNow{
-    padding-left: 17.5%;
-    color:white;
+.contenedorGuitar {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: center;
 }
+
+ .card {
+     text-align: center;
+     padding-bottom: 10%;
+     height:120%;
+     width: 10%;
+ }
+
+ .card-title {
+     margin-top: 3%;
+ }
+
 
 @media (max-width: 576px){
 
@@ -110,46 +138,5 @@
     .textoCorreo {
         padding-left: 10%;
         color: white;
-    }
-
-/* CLASES DE SITIOS DE GUITARRAS */
-
-    .infoGuitarra{
-        padding-left: 0%;
-        margin-top: 5%;
-        color:white;
-        font-size: 1rem;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-    }
-    .tituloGuitarra{
-        padding-left: 12%;
-        color:white;
-    }
-    .imgGuitarra{
-        margin-left: 0%;
-        border: solid black 5px;
-    
-    }
-    
-    .textoBuyNow{
-        padding-left: 0%;
-        color:white;	
-    }
-
-    .margenGuitar {
-        margin-bottom: 5%;
-    }
-    
-    .hideOnSmallScreen {
-        display: none;
-    }
-      
-}
-
-      @media (min-width: 577px) {
-    .hideOnBigScreen {
-    display: none;
     }
 }

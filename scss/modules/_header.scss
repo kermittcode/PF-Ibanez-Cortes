@@ -24,5 +24,9 @@ header {
         font-size: $fontsize-main;
         font-weight: bold;
     }
-
+    .rowHeader {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0%;
+    }
 }

@@ -17,6 +17,11 @@ header .navbar-brand {
   font-size: 2.5rem;
   font-weight: bold;
 }
+header .rowHeader {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+}
 
 footer {
   background-color: black;
@@ -37,27 +42,7 @@ footer {
 }
 
 main {
-  background-color: #23536D;
-}
-main .textoMostSold {
-  text-align: center;
-  color: white;
-}
-main .contenedorGuitar {
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 400px;
-  height: 400px;
-}
-main .card {
-  text-align: center;
-  height: 100%;
-  margin: 3%;
-  padding: 3%;
-}
-main .card-title {
-  margin-top: 3%;
+  background-image: url(.../assets/fondoAboutUs.webp);
 }
 main .contenedorNewsletter {
   background-color: #525252;
@@ -75,29 +60,81 @@ main .textoCorreo {
   color: white;
 }
 
-/* CLASES DE PAGINAS DE GUITARRA */
-.tituloGuitarra {
-  padding-left: 17.5%;
-  margin-bottom: 1.4%;
-  color: white;
+.cardBrands {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.imgGuitarra {
+.rowBrands {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.tituloSuperiorBr {
+  color: white;
+  height: 22%;
+  text-align: center;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.textoBrands {
+  padding-bottom: 5%;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.textoBrandsDos {
+  padding-bottom: 2%;
+  padding-top: 2%;
+  font-size: 1.5rem;
+}
+
+.contenedorBrandsBlanco {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
   margin-left: 5%;
-  border: solid black 5px;
-  position: static;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  border-radius: 0.3rem !important;
 }
 
-.infoGuitarra {
-  padding-left: 30%;
+.contenedorBrandsAzul {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #016A92;
+  border-radius: 0.3rem !important;
   color: white;
-  font-size: 1.2rem;
-  margin-top: 6%;
 }
 
-.textoBuyNow {
-  padding-left: 17.5%;
-  color: white;
+.contenedorGuitar {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  text-align: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  padding-bottom: 10%;
+  height: 120%;
+  width: 10%;
+}
+
+.card-title {
+  margin-top: 3%;
 }
 
 @media (max-width: 576px) {
@@ -132,39 +169,6 @@ main .textoCorreo {
   .textoCorreo {
     padding-left: 10%;
     color: white;
-  }
-  /* CLASES DE SITIOS DE GUITARRAS */
-  .infoGuitarra {
-    padding-left: 0%;
-    margin-top: 5%;
-    color: white;
-    font-size: 1rem;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-  .tituloGuitarra {
-    padding-left: 12%;
-    color: white;
-  }
-  .imgGuitarra {
-    margin-left: 0%;
-    border: solid black 5px;
-  }
-  .textoBuyNow {
-    padding-left: 0%;
-    color: white;
-  }
-  .margenGuitar {
-    margin-bottom: 5%;
-  }
-  .hideOnSmallScreen {
-    display: none;
-  }
-}
-@media (min-width: 577px) {
-  .hideOnBigScreen {
-    display: none;
   }
 }
 main {
@@ -348,11 +352,39 @@ main .textoCorreo {
 
 .paddingAssistYou {
   padding-top: 5%;
-  padding-bottom: 3.4%;
+  padding-bottom: 5%;
+  padding-left: 19%;
 }
 
 .paddingAssistThings {
   padding-bottom: 3%;
+  padding-left: 25%;
+}
+
+.paddingAssistUltimo {
+  padding-left: 25%;
+}
+
+.imgCustomerS {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin-top: 20%;
+}
+
+.tablaImageText {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  margin-top: 3%;
+}
+
+.textoCustomerS {
+  padding-left: 10%;
+  font-size: 1.2rem;
+  width: 600px;
 }
 
 @media (max-width: 576px) {
@@ -710,7 +742,7 @@ main .textoCorreo {
   padding-left: 30%;
   color: white;
   font-size: 1.2rem;
-  margin-top: 6%;
+  margin-top: 0%;
 }
 
 .textoBuyNow {
@@ -918,6 +950,11 @@ main .textoCorreo {
 }
 main {
   background-color: #23536D;
+}
+main .rowGuitar {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
 }
 main .textoMostSold {
   text-align: center;

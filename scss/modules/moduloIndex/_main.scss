@@ -1,6 +1,12 @@
  main {
     background-color: $bg-color-main;
 
+    .rowGuitar {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5%;
+    }
+
     .textoMostSold {
         text-align: center;
         color: white;
