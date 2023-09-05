@@ -66,12 +66,6 @@
         background-color: #2B3035;
     }
 
-    .contenedorNewsletter {
-        background-color:$color-terciario;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
     .responsiveCarousel{
         text-align: center;
@@ -94,28 +88,29 @@
         justify-content: center;
     }
 
+    .contenedorNewsletter {
+        background-color:$color-terciario;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .textoNews {
         padding-left: 0%;
         color: white;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
 
     }
     
     .textoCorreo {
-        padding-left: 0%;
         color: white;
-        margin-left: auto;
-        margin-right: auto;
         text-align: center;
     }
 
     .textoEnterEmail {
-        padding-left: 0%;
+        
         color: white;
-        margin-left: auto;
-        margin-right: auto;
     }
 
 }

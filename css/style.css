@@ -12,6 +12,8 @@ header .contenedorHeader {
 }
 header .fotoLogo {
   border-radius: 50%;
+  padding: 1%;
+  object-fit: cover;
 }
 header .navbar-brand {
   font-size: 2.5rem;
@@ -29,6 +31,11 @@ header .rowHeader {
     justify-content: center;
     flex-wrap: wrap;
     background-color: #2B3035;
+  }
+  .fotoLogo {
+    border-radius: 50%;
+    padding: 1%;
+    object-fit: cover;
   }
 }
 footer {
@@ -1023,12 +1030,6 @@ main .textoCorreo {
     flex-wrap: wrap;
     background-color: #2B3035;
   }
-  .contenedorNewsletter {
-    background-color: #525252;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
   .responsiveCarousel {
     text-align: center;
     align-items: center;
@@ -1046,25 +1047,24 @@ main .textoCorreo {
     align-items: center;
     justify-content: center;
   }
+  .contenedorNewsletter {
+    background-color: #525252;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .textoNews {
     padding-left: 0%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
   }
   .textoCorreo {
-    padding-left: 0%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
   }
   .textoEnterEmail {
-    padding-left: 0%;
     color: white;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 main {
